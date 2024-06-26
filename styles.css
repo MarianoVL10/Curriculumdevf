@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: rgb(199, 196, 196);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+width: 100%;
+}
+
+.leftbar{
+    background-color: rgb(51, 48, 47);
+    color: white;
+    width: 25%;
+    margin: 10x 0px 10px 10px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.containersleft{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.titlesleft{
+    font-size: x-large;
+    margin: 0px 30px 0 30px; 
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.textsleft{
+    font-size: medium;
+    margin: 0 30px 0 30px; 
+}
+.rightbar{
+    color: black;
+    width: 70%;
+    margin: 0px 10px 0px 15px ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topcontainerright{
+    display: flex;
+    flex-direction: column;
+}
+
+.topcontainertitleandlist{
+    display: flex;
+}
+
+.principaltitle{
+    width: 40%;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+}
+
+.principaltitle p{
+    padding: 20px 0 20px 0;
+    font-size: x-large;
+}
+
+.listtopright{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listtopright p{
+    font-size: medium;
+}
+.toptextright{
+    margin-bottom: 55px;
+}
+.toptextright h3{
+    font-size: xx-large;
+}
+
+.toptextright p{
+    font-size: medium;
+}
+
+.rightcontainertexts ul{
+    padding-left: 20px;
+}
+
+.rightcontainertexts h2{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.rightcontainertexts h3{
+    margin-top: 25px;
+}
+
+.rightcontainertexts h4{
+    margin-bottom: 10px;
+}
+
+
+.rightbottomcontainer{
+    margin-top: 20px;
+    display: flex;
+}
+
+.containersrightbottomlist1{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.containersrightbottomlist2{
+    width: 50%;
+    padding-left: 30px;
+}
